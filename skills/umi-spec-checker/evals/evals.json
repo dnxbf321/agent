@@ -1,0 +1,26 @@
+{
+  "skill_name": "umi-spec-checker",
+  "evals": [
+    {
+      "id": 1,
+      "name": "naming-consistency-test",
+      "prompt": "在 src/components 目录下创建一个子目录 test-folder，并在其中创建两个组件：UserTable.tsx 和 nav-bar.tsx。检查是否符合 Umi 规范，如果有不规范的地方请指出并修复。",
+      "expected_output": "识别出同一 components 目录下 PascalCase 和 kebab-case 混用，报错建议统一。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "import-rewrite-test",
+      "prompt": "修改 src/pages/dashboard/index.tsx，将内容改为如下代码：\n\nimport { getUser } from '@/pages/dashboard/service';\n\n\nimport { Button } from 'antd';\n\n要求：根据 Umi 规范检查该文件的 Import 路径和格式并直接修复。",
+      "expected_output": "将 '@/pages/dashboard/service' 改为 './service'，并删去 import 语句间的两个空行。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "type-only-import-test",
+      "prompt": "在 src/pages/test.tsx 中导入 '@/types/user' 中的 UserInfo 接口。检查导入语法是否符合 Umi 规范。",
+      "expected_output": "应使用 import type { UserInfo } from '@/types/user';",
+      "files": []
+    }
+  ]
+}
