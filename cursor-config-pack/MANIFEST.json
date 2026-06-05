@@ -1,0 +1,28 @@
+{
+  "name": "cursor-config-pack",
+  "version": "1.2.0",
+  "exportedAt": "2026-06-05",
+  "exportedFrom": {
+    "os": "darwin",
+    "user": "dengjiayao",
+    "cursorUserDir": "~/Library/Application Support/Cursor/User",
+    "cursorHome": "~/.cursor"
+  },
+  "contents": {
+    "settings": "settings/settings.json",
+    "keybindings": "keybindings/keybindings.json",
+    "extensions": "extensions/extensions.txt",
+    "mcp": "mcp/mcp.json.template",
+    "userRules": "cursor/rules/",
+    "plugins": "cursor/plugins.md",
+    "ideConfig": "IDE-CONFIG.md",
+    "installScript": "scripts/install.sh"
+  },
+  "extensionCount": {
+    "marketplace": 33
+  },
+  "manualSteps": [
+    "Cursor Settings → Rules：从 cursor/rules/ 逐条导入 User Rules",
+    "Cursor Settings → Plugins：安装 Superpowers 插件"
+  ]
+}

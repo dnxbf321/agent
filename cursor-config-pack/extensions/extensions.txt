@@ -1,0 +1,51 @@
+# Cursor 扩展列表（Marketplace）
+# 安装: ./scripts/install.sh 或 cursor --install-extension <id>
+# VSIX 扩展见 extensions/vsix/
+
+# --- 代码质量 ---
+esbenp.prettier-vscode
+dbaeumer.vscode-eslint
+stylelint.vscode-stylelint
+editorconfig.editorconfig
+usernamehw.errorlens
+drknoxy.eslint-disable-snippets
+
+# --- 前端 / CSS ---
+bradlc.vscode-tailwindcss
+clinyong.vscode-css-modules
+csstools.postcss
+mrmlnc.vscode-less
+formulahendry.auto-rename-tag
+naumovs.color-highlight
+kisstkondoros.vscode-gutter-preview
+
+# --- Git ---
+eamodio.gitlens
+waderyan.gitblame
+mhutchie.git-graph
+codezombiech.gitignore
+
+# --- 开发效率 ---
+chakrounanas.turbo-console-log
+christian-kohler.path-intellisense
+christian-kohler.npm-intellisense
+jasonnutter.search-node-modules
+gruntfuggly.todo-tree
+cardinal90.multi-cursor-case-preserve
+aaron-bond.better-comments
+psioniq.psi-header
+mikestead.dotenv
+oderwat.indent-rainbow
+
+# --- 主题 / 可视化 ---
+zhuangtongfa.material-theme
+pkief.material-icon-theme
+mermaidchart.vscode-mermaid-chart
+bierner.markdown-mermaid
+
+# --- Cursor / AI ---
+anysphere.remote-ssh
+whyuds.agent-skills-manager
+
+# --- 语言包 ---
+ms-ceintl.vscode-language-pack-zh-hans
